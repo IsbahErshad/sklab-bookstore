@@ -19,25 +19,25 @@ function App() {
 
   const books = [
     {
-      title: "Book Title 1",
-      author: "Author 1",
-      price: "$10",
-      description: "This is a brief description of Book 1.",
-      cover: "https://via.placeholder.com/150"
+      title: "Macbeth",
+      author: "Shakespear",
+      price: "$50",
+      description: "Macbeth, a tragedy by William Shakespeare, follows the ambitious Scottish general Macbeth. Spurred by a prophecy and his wife, he murders King Duncan to become king. Consumed by guilt and paranoia, Macbeth's tyrannical rule leads to more violence and his eventual downfall. The play delves into themes of ambition, power, and guilt.",
+      cover: "https://in.images.search.yahoo.com/images/view;_ylt=AwrKFyowmFxmXkgM8yi9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzU1MTk0YTM0ZDc5MWJjYWFkYjc0ZThlMDc5NTIxM2MxBGdwb3MDMgRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dmacbethbooks%26ei%3DUTF-8%26type%3DE211IN714G0%26fr%3Dmcafee%26fr2%3Dp%253As%252Cv%253Ai%252Cm%253Asb-top%26tab%3Dorganic%26ri%3D2&w=1633&h=2502&imgurl=d28hgpri8am2if.cloudfront.net%2Fbook_images%2Fcvr9781451694727_9781451694727_hr.jpg&rurl=https%3A%2F%2Fwww.simonandschuster.com%2Fbooks%2FMacbeth%2FWilliam-Shakespeare%2FFolger-Shakespeare-Library%2F9781451694727&size=3144.4KB&p=macbethbooks&oid=55194a34d791bcaadb74e8e0795213c1&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&fr=mcafee&tt=Macbeth+%7C+Book+by+William+Shakespeare%2C+Dr.+Barbara+A.+Mowat%2C+Paul+...&b=0&ni=100&no=2&ts=&tab=organic&sigr=uQl2klaAuXXz&sigb=8uisPvqn6AAB&sigi=0FXNqFeIxLp9&sigt=5kYFpJyeE3p.&.crumb=BgkayneIRjv&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&type=E211IN714G0"
     },
     {
-      title: "Book Title 2",
-      author: "Author 2",
-      price: "$12",
-      description: "This is a brief description of Book 2.",
-      cover: "https://via.placeholder.com/150"
+      title: "Sapiens",
+      author: "Yuval Noah",
+      price: "$20",
+      description: "Sapiens: A Brief History of Humankind by Yuval Noah Harari traces human history from the emergence of Homo sapiens to the present, examining how cognitive, agricultural, and scientific revolutions shaped societies and cultures. Harari explores the impacts of capitalism, religion, and imperialism, and considers the future of humanity.",
+      cover: "https://in.images.search.yahoo.com/images/view;_ylt=Awrx.9cGmVxmQ4YNDc.9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzgzZmQzYzMwOWI1YjVjMjEwNDhiYmUxYjg3NjU5ZjMyBGdwb3MDMgRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dsapiens%2Bbook%26type%3DE211IN714G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D2&w=877&h=1024&imgurl=www.blog.sindibad.tn%2Fwp-content%2Fuploads%2F2021%2F01%2FBook-Sapiens-A-Brief-History-of-Humankind-by-Yuval-Noah-Harari-pdf-877x1024.png&rurl=https%3A%2F%2Fwww.blog.sindibad.tn%2Fbook-sapiens-a-brief-history-of-humankind-by-yuval-noah-harari-pdf%2F&size=443.5KB&p=sapiens+book&oid=83fd3c309b5b5c21048bbe1b87659f32&fr2=piv-web&fr=mcafee&tt=Book+Sapiens%3A+A+Brief+History+of+Humankind+by+Yuval+Noah+Harari+PDF+...&b=0&ni=21&no=2&ts=&tab=organic&sigr=UJhupQwXAQJJ&sigb=qgANYi0bEcZO&sigi=PUerzatHoWXt&sigt=90y5fiwhnX2l&.crumb=BgkayneIRjv&fr=mcafee&fr2=piv-web&type=E211IN714G0"
     },
     {
-      title: "Book Title 3",
-      author: "Author 3",
-      price: "$15",
-      description: "This is a brief description of Book 3.",
-      cover: "https://via.placeholder.com/150"
+      title: "The da vinci code ",
+      author: "Dan brown",
+      price: "$25",
+      description: "The Da Vinci Code by Dan Brown follows symbologist Robert Langdon and cryptologist Sophie Neveu as they unravel a murder mystery at the Louvre. Their investigation uncovers secrets about the Holy Grail and a hidden society, challenging established religious beliefs. The novel blends art, history, and religion in a thrilling adventure.",
+      cover: "https://in.images.search.yahoo.com/images/view;_ylt=AwrKFypImlxmekAJ7M69HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzJjNDE5OGJiY2Q5N2Q3NDRjZTc3MmIyN2IyMzRiODgwBGdwb3MDMQRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dda%2Bvinci%2Bcode%2Bbook%26ei%3DUTF-8%26type%3DE211IN714G0%26fr%3Dmcafee%26fr2%3Dsa-gp-search%26tab%3Dorganic%26ri%3D1&w=1520&h=2370&imgurl=cdn2.penguin.com.au%2Fcovers%2Foriginal%2F9780552159715.jpg&rurl=https%3A%2F%2Fwww.penguin.com.au%2Fbooks%2Fthe-da-vinci-code-9780552159715&size=1299.0KB&p=da+vinci+code+book&oid=2c4198bbcd97d744ce772b27b234b880&fr2=sa-gp-search&fr=mcafee&tt=The+Da+Vinci+Code+by+Dan+Brown+-+Penguin+Books+Australia&b=0&ni=100&no=1&ts=&tab=organic&sigr=5B8tYUI8ibCS&sigb=t8T8tHuD.siG&sigi=4MUucqRvNAFJ&sigt=qKu6yFjpLkFy&.crumb=BgkayneIRjv&fr=mcafee&fr2=sa-gp-search&type=E211IN714G0"
     }
   ];
 
